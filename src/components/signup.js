@@ -5,6 +5,7 @@ import { connect } from 'react-redux'
 import { withRouter } from "react-router-dom"
 
 const url = "http://localhost:3001/api/v1/";
+const heroku_url = "https://rip-aim-frontend.herokuapp.com/";
 
 class Signup extends React.Component {
   constructor(props) {
