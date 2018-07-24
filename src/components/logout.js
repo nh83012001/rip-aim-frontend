@@ -7,7 +7,7 @@ const LogoutButton = (props) => {
     return(
       <div>
       <NavLink to='/login'>
-        <button onClick={props.logout} className='ui inverted violet button opacity'>
+        <button onClick={props.logout} className='ui inverted violet button opacity clickable'>
           Logout
         </button>
       </NavLink>
