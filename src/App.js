@@ -4,6 +4,7 @@ import Signup from './components/signup'
 import Login from './components/login'
 import LoginBar from './components/loginNavbar'
 import Profile from './components/profile'
+import Messages from './components/messagesShow'
 import {
   connect
 } from 'react-redux'
@@ -76,6 +77,13 @@ class App extends React.Component {
       Route exact path = "/login"
       render = {
         () => < Login / >
+      }
+      />
+
+      <
+      Route exact path = "/messages"
+      render = {
+        () => < Messages / >
       }
       />
 
